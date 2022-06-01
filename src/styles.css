@@ -1,98 +1,40 @@
 :root {
-  --BG-radial-center-blue: radial-gradient(
-      41.57% 203.21% at 91.57% 84.27%,
-      rgba(13, 108, 235, 0.4) 0%,
-      rgba(35, 129, 255, 0) 100%
-    ),
-    radial-gradient(
-      50% 50% at 50% 50%,
-      rgba(255, 226, 153, 0.4) 0%,
-      rgba(255, 209, 233, 0) 100%
-    ),
+  --BG-radial-center-blue:
+    radial-gradient(41.57% 203.21% at 91.57% 84.27%,rgba(13, 108, 235, 0.4) 0%,rgba(35, 129, 255, 0) 100% ),
+    radial-gradient(50% 50% at 50% 50%,  rgba(255, 226, 153, 0.4) 0%, rgba(255, 209, 233, 0) 100% ),
     linear-gradient(98.7deg, #e4daff -11.66%, rgba(228, 218, 255, 0) 100%);
 
-  --BG-linear-left-bottom: linear-gradient(
-      106deg,
-      rgba(17, 215, 204, 0.2) 16.33%,
-      rgba(0, 86, 82, 0.2) 95.56%
-    ),
-    radial-gradient(
-      50.43% 50.43% at 45.72% 65.3%,
-      rgba(255, 211, 102, 0.2) 0%,
-      rgba(255, 251, 240, 0.2) 100%
-    ),
+  --BG-linear-left-bottom:
+    linear-gradient( 106deg, rgba(17, 215, 204, 0.2) 16.33%,rgba(0, 86, 82, 0.2) 95.56%),
+    radial-gradient( 50.43% 50.43% at 45.72% 65.3%, rgba(255, 211, 102, 0.2) 0%,rgba(255, 251, 240, 0.2) 100%),
     linear-gradient(212.83deg, #c9b5ff -0.49%, rgba(244, 240, 255, 0.46) 80.39%);
 
-  --BG-linear-op1: radial-gradient(
-      41.57% 203.21% at 91.57% 84.27%,
-      rgba(13, 108, 235, 0.4) 0%,
-      rgba(35, 129, 255, 0) 100%
-    ),
-    radial-gradient(
-      50% 50% at 50% 50%,
-      rgba(255, 226, 153, 0.4) 0%,
-      rgba(255, 209, 233, 0) 100%
-    ),
+  --BG-linear-op1: 
+    radial-gradient( 41.57% 203.21% at 91.57% 84.27%, rgba(13, 108, 235, 0.4) 0%,  rgba(35, 129, 255, 0) 100%),
+    radial-gradient( 50% 50% at 50% 50%,  rgba(255, 226, 153, 0.4) 0%, rgba(255, 209, 233, 0) 100% ),
     linear-gradient(98.7deg, #e4daff -11.66%, rgba(228, 218, 255, 0) 100%);
 
-  --BG-linear-radial: radial-gradient(
-      43.97% 134.27% at 32.1% 21.98%,
-      #d3e6ff 0%,
-      rgba(192, 240, 255, 0) 100%
-    ),
+  --BG-linear-radial:
+    radial-gradient( 43.97% 134.27% at 32.1% 21.98%,#d3e6ff 0%, rgba(192, 240, 255, 0) 100%),
     linear-gradient(217.61deg, #c9b5ff 20.91%, #ffc2e1 78.24%);
 
-  --BG-radial-left-corner: radial-gradient(
-      27.29% 60.19% at 72.15% 89.66%,
-      rgba(255, 182, 0, 0.4) 0%,
-      rgba(217, 119, 6, 0) 100%
-    ),
-    linear-gradient(
-      180deg,
-      rgba(250, 161, 207, 0) 0%,
-      rgba(250, 161, 207, 0.4) 100%
-    ),
+  --BG-radial-left-corner:
+    radial-gradient( 27.29% 60.19% at 72.15% 89.66%, rgba(255, 182, 0, 0.4) 0%, rgba(217, 119, 6, 0) 100% ),
+    linear-gradient( 180deg, rgba(250, 161, 207, 0) 0%, rgba(250, 161, 207, 0.4) 100%  ),
     linear-gradient(165.14deg, #ffd366 4.85%, #f0fdf4 89.52%);
 
-  --BG-radial-top-corner: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0) 0%,
-      #ffffff 100%
-    ),
-    radial-gradient(
-      132.71% 141.6% at 33.76% -32.71%,
-      rgba(173, 145, 255, 0.36) 0%,
-      rgba(201, 181, 255, 0) 100%
-    ),
-    radial-gradient(
-      55.16% 159.36% at 90.11% -21.09%,
-      #7747ff 0%,
-      rgba(243, 223, 249, 0) 47.92%,
-      rgba(255, 179, 218, 0) 100%
-    ),
-    linear-gradient(
-      208.55deg,
-      #ffc2e1 -0.96%,
-      #ffe1f0 15.1%,
-      rgba(255, 251, 253, 0) 82.38%
-    );
+  --BG-radial-top-corner:
+    linear-gradient( 180deg,rgba(255, 255, 255, 0) 0%, #ffffff 100% ),
+    radial-gradient( 132.71% 141.6% at 33.76% -32.71%, rgba(173, 145, 255, 0.36) 0%, rgba(201, 181, 255, 0) 100%),
+    radial-gradient(55.16% 159.36% at 90.11% -21.09%, #7747ff 0%, rgba(243, 223, 249, 0) 47.92%,rgba(255, 179, 218, 0) 100% ),
+    linear-gradient(  208.55deg, #ffc2e1 -0.96%, #ffe1f0 15.1%, rgba(255, 251, 253, 0) 82.38%);
 
   --BG-contain: contain;
   --BG-overlay: overlay;
 
-  --BG-headerTest-1: linear-gradient(
-    106deg,
-    rgba(17, 215, 204, 0.2) 16.33%,
-    rgba(0, 86, 82, 0.2) 95.56%
-  );
-
-  --BG-headerTest-3: radial-gradient(
-      50.43% 50.43% at 45.72% 65.3%,
-      rgba(255, 211, 102, 0.2) 0%,
-      rgba(255, 251, 240, 0.2) 100%
-    ),
-    linear-gradient(212.83deg, #c9b5ff -0.49%, rgba(244, 240, 255, 0.46) 80.39%);
-}
+  --BG-headerTest-1: linear-gradient(106deg,rgba(17, 215, 204, 0.2) 16.33%, rgba(0, 86, 82, 0.2) 95.56%);
+  --BG-headerTest-3: radial-gradient( 50.43% 50.43% at 45.72% 65.3%, rgba(255, 211, 102, 0.2) 0%,rgba(255, 251, 240, 0.2) 100% ),
+    linear-gradient(212.83deg, #c9b5ff -0.49%, rgba(244, 240, 255, 0.46) 80.39%);}
 
 body {
   margin: 0;

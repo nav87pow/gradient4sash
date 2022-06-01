@@ -1,10 +1,10 @@
 {
-  "name": "gradient4u",
+  "name": "gradient4sash",
   "version": "1.0.0",
-  "description": "that s straight from the figma with small changes so it will work ",
+  "description": "\n\nlayers of gradient without using div and position relative+absolute\nheader get tested by Pseudo-elements ::before & ::after didnt work\n",
   "keywords": [
-    "gradient",
-    "css"
+    "css",
+    "gradient "
   ],
   "main": "src/index.js",
   "dependencies": {

@@ -10,7 +10,8 @@
       rgba(255, 209, 233, 0) 100%
     ),
     linear-gradient(98.7deg, #e4daff -11.66%, rgba(228, 218, 255, 0) 100%);
-  --BG-linear-left-botom: linear-gradient(
+
+  --BG-linear-left-bottom: linear-gradient(
       106deg,
       rgba(17, 215, 204, 0.2) 16.33%,
       rgba(0, 86, 82, 0.2) 95.56%
@@ -21,6 +22,7 @@
       rgba(255, 251, 240, 0.2) 100%
     ),
     linear-gradient(212.83deg, #c9b5ff -0.49%, rgba(244, 240, 255, 0.46) 80.39%);
+
   --BG-linear-op1: radial-gradient(
       41.57% 203.21% at 91.57% 84.27%,
       rgba(13, 108, 235, 0.4) 0%,
@@ -33,13 +35,13 @@
     ),
     linear-gradient(98.7deg, #e4daff -11.66%, rgba(228, 218, 255, 0) 100%);
 
-  --BG-overlay: overlay;
   --BG-linear-radial: radial-gradient(
       43.97% 134.27% at 32.1% 21.98%,
       #d3e6ff 0%,
       rgba(192, 240, 255, 0) 100%
     ),
     linear-gradient(217.61deg, #c9b5ff 20.91%, #ffc2e1 78.24%);
+
   --BG-radial-left-corner: radial-gradient(
       27.29% 60.19% at 72.15% 89.66%,
       rgba(255, 182, 0, 0.4) 0%,
@@ -58,25 +60,25 @@
       #ffffff 100%
     ),
     radial-gradient(
-        132.71% 141.6% at 33.76% -32.71%,
-        rgba(173, 145, 255, 0.36) 0%,
-        rgba(201, 181, 255, 0) 100%
-      )
-      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+      132.71% 141.6% at 33.76% -32.71%,
+      rgba(173, 145, 255, 0.36) 0%,
+      rgba(201, 181, 255, 0) 100%
+    ),
     radial-gradient(
-        55.16% 159.36% at 90.11% -21.09%,
-        #7747ff 0%,
-        rgba(243, 223, 249, 0) 47.92%,
-        rgba(255, 179, 218, 0) 100%
-      )
-      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+      55.16% 159.36% at 90.11% -21.09%,
+      #7747ff 0%,
+      rgba(243, 223, 249, 0) 47.92%,
+      rgba(255, 179, 218, 0) 100%
+    ),
     linear-gradient(
       208.55deg,
       #ffc2e1 -0.96%,
       #ffe1f0 15.1%,
       rgba(255, 251, 253, 0) 82.38%
     );
+
   --BG-contain: contain;
+  --BG-overlay: overlay;
 
   --BG-headerTest-1: linear-gradient(
     106deg,
@@ -125,14 +127,14 @@ td {
 }
 aside {
   border-radius: 5px;
-  padding: 1vh 0;
+
   height: 20vh;
   width: 50vw;
-  background-image: var(--BG-linear-left-botom);
+  background-image: var(--BG-linear-left-bottom);
   background-blend-mode: var(--BG-overlay);
 }
 footer {
-  padding: 3vh 0 0 0;
+  margin: 3vh 0 0 0;
   background-image: var(--BG-linear-op1);
   background-blend-mode: var(--BG-overlay);
   width: 100vw;

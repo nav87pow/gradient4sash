@@ -13,14 +13,20 @@ const App = () => {
       <section></section>
       <div></div>
       <table>
-        <th></th>
-        <th></th>
-        <th></th>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
+        <thead>
+          <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
       </table>
 
       <aside></aside>
